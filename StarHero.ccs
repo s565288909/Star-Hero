@@ -1,0 +1,21 @@
+<Solution>
+  <PropertyGroup Name="StarHero" Version="3.10.0.0" Type="CocosStudio" />
+  <SolutionFolder>
+    <Group ctype="ResourceGroup">
+      <RootFolder Name=".">
+        <Folder Name="game">
+          <Project Name="GameScene.csd" Type="Scene" />
+          <Folder Name="resource">
+            <Image Name="SpaceBackground.png" />
+            <Image Name="star.png" />
+          </Folder>
+          <Folder Name="Node">
+            <Project Name="BgLayer.csd" Type="Layer" />
+          </Folder>
+        </Folder>
+        <Image Name="HelloWorld.png" />
+        <Project Name="MainScene.csd" Type="Scene" />
+      </RootFolder>
+    </Group>
+  </SolutionFolder>
+</Solution>
