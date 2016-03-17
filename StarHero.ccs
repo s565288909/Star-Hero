@@ -4,13 +4,28 @@
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
         <Folder Name="game">
-          <Project Name="GameScene.csd" Type="Scene" />
+          <Folder Name="Node">
+            <Project Name="BgLayer.csd" Type="Layer" />
+            <Project Name="Player.csd" Type="Node" />
+            <Project Name="StarLayer.csd" Type="Layer" />
+          </Folder>
           <Folder Name="resource">
+            <Folder Name="player">
+              <Image Name="player1_run_left_1.png" />
+              <Image Name="player1_run_left_2.png" />
+              <Image Name="player1_run_left_3.png" />
+              <Image Name="player1_run_left_4.png" />
+              <Image Name="player1_run_right_1.png" />
+              <Image Name="player1_run_right_2.png" />
+              <Image Name="player1_run_right_3.png" />
+              <Image Name="player1_run_right_4.png" />
+              <PlistInfo Name="Plist.csi" Type="Plist" />
+            </Folder>
             <Image Name="SpaceBackground.png" />
             <Image Name="star.png" />
           </Folder>
-          <Folder Name="Node">
-            <Project Name="BgLayer.csd" Type="Layer" />
+          <Folder Name="Scene">
+            <Project Name="GameScene.csd" Type="Scene" />
           </Folder>
         </Folder>
         <Image Name="HelloWorld.png" />
