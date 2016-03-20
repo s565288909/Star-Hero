@@ -11,7 +11,7 @@
         <iOS_Target Value="StarHero-mobile" />
         <iOS_BundleID Value="" />
         <Platform Value="None" />
-        <RunPlatform Value="None" />
+        <RunPlatform Value="Mac" />
         <FrameworkVersion Value="cocos2d-x-3.10" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
@@ -31,12 +31,12 @@
     <Item Key="TabsParamsKey">
       <Value ctype="TabsInfo">
         <OpenedDocuments>
-          <FilePathData Path="game/Node/BgLayer.csd" />
-          <FilePathData Path="game/Scene/GameScene.csd" />
-          <FilePathData Path="game/Node/Player.csd" />
-          <FilePathData Path="game/Node/StarLayer.csd" />
+          <FilePathData Path="Scene/GameScene.csd" />
+          <FilePathData Path="Node/Player.csd" />
+          <FilePathData Path="Node/StarLayer.csd" />
+          <FilePathData Path="Node/UILayer.csd" />
         </OpenedDocuments>
-        <ActiveDocument Path="game/Scene/GameScene.csd" />
+        <ActiveDocument Path="Node/UILayer.csd" />
       </Value>
     </Item>
   </Properties>

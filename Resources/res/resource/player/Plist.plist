@@ -4,7 +4,7 @@
 	<dict>
 		<key>frames</key>
 		<dict>
-			<key>game/resource/player/player1_run_left_1.png</key>
+			<key>resource/player/player1_run_left_1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,1},{102,177}}</string>
@@ -15,7 +15,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_left_2.png</key>
+			<key>resource/player/player1_run_left_2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{180,1},{102,177}}</string>
@@ -26,7 +26,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_left_3.png</key>
+			<key>resource/player/player1_run_left_3.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{359,1},{102,177}}</string>
@@ -37,7 +37,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_left_4.png</key>
+			<key>resource/player/player1_run_left_4.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,105},{102,177}}</string>
@@ -48,7 +48,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_right_1.png</key>
+			<key>resource/player/player1_run_right_1.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{180,105},{102,177}}</string>
@@ -59,7 +59,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_right_2.png</key>
+			<key>resource/player/player1_run_right_2.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{359,180},{102,177}}</string>
@@ -70,7 +70,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_right_3.png</key>
+			<key>resource/player/player1_run_right_3.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{1,209},{102,177}}</string>
@@ -81,7 +81,7 @@
 				<key>sourceSize</key>
 				<string>{102,177}</string>
 			</dict>
-			<key>game/resource/player/player1_run_right_4.png</key>
+			<key>resource/player/player1_run_right_4.png</key>
 			<dict>
 				<key>frame</key>
 				<string>{{180,209},{102,177}}</string>

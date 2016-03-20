@@ -1,0 +1,12 @@
+<PlistInfoProjectFile>
+  <PropertyGroup Name="UI_Plist" Type="Plist" ID="f0bf4a77-4257-4a49-8a6c-d89527138e9c" Version="3.10.0.0" />
+  <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
+    <ImageFiles>
+      <FilePathData Path="Images/ui/left_bt_1.png" />
+      <FilePathData Path="Images/ui/left_bt_2.png" />
+      <FilePathData Path="Images/ui/right_bt_1.png" />
+      <FilePathData Path="Images/ui/right_bt_2.png" />
+    </ImageFiles>
+    <MaxSize Width="256" Height="256" />
+  </Content>
+</PlistInfoProjectFile>

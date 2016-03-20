@@ -14,7 +14,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition X="0.5163" Y="0.0867" />
             <PreSize X="0.6104" Y="0.9141" />
-            <FileData Type="Normal" Path="game/resource/star.png" Plist="" />
+            <FileData Type="Normal" Path="Images/star.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
         </Children>
