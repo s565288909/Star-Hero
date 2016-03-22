@@ -3,14 +3,9 @@
   <SolutionFolder>
     <Group ctype="ResourceGroup">
       <RootFolder Name=".">
-        <Folder Name="Node">
-          <Project Name="BgLayer.csd" Type="Layer" />
-          <Project Name="Player.csd" Type="Node" />
-          <Project Name="StarLayer.csd" Type="Layer" />
-          <Project Name="UILayer.csd" Type="Layer" />
-        </Folder>
         <Folder Name="Images">
           <Folder Name="player">
+            <PlistInfo Name="Player_Plist.csi" Type="Plist" />
             <Image Name="player1_run_left_1.png" />
             <Image Name="player1_run_left_2.png" />
             <Image Name="player1_run_left_3.png" />
@@ -19,10 +14,7 @@
             <Image Name="player1_run_right_2.png" />
             <Image Name="player1_run_right_3.png" />
             <Image Name="player1_run_right_4.png" />
-            <PlistInfo Name="Player_Plist.csi" Type="Plist" />
           </Folder>
-          <Image Name="SpaceBackground.png" />
-          <Image Name="star.png" />
           <Folder Name="ui">
             <Image Name="left_bt_1.png" />
             <Image Name="left_bt_2.png" />
@@ -30,6 +22,14 @@
             <Image Name="right_bt_2.png" />
             <PlistInfo Name="UI_Plist.csi" Type="Plist" />
           </Folder>
+          <Image Name="SpaceBackground.png" />
+          <Image Name="star.png" />
+        </Folder>
+        <Folder Name="Node">
+          <Project Name="BgLayer.csd" Type="Layer" />
+          <Project Name="Player.csd" Type="Node" />
+          <Project Name="StarLayer.csd" Type="Layer" />
+          <Project Name="UILayer.csd" Type="Layer" />
         </Folder>
         <Folder Name="Scene">
           <Project Name="GameScene.csd" Type="Scene" />

@@ -28,16 +28,5 @@
         <LastRunType Value="Mac" />
       </Value>
     </Item>
-    <Item Key="TabsParamsKey">
-      <Value ctype="TabsInfo">
-        <OpenedDocuments>
-          <FilePathData Path="Scene/GameScene.csd" />
-          <FilePathData Path="Node/Player.csd" />
-          <FilePathData Path="Node/StarLayer.csd" />
-          <FilePathData Path="Node/UILayer.csd" />
-        </OpenedDocuments>
-        <ActiveDocument Path="Node/UILayer.csd" />
-      </Value>
-    </Item>
   </Properties>
 </UserData>

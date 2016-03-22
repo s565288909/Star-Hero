@@ -63,6 +63,9 @@
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
 		F597E6FB1C9EE19000368353 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */; };
 		F5CA946E1C9ED9A7000A65AA /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */; };
+		F5EF04D01CA1982A006E7250 /* UIClass.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5EF04CE1CA1982A006E7250 /* UIClass.cpp */; };
+		F5EF04D31CA19854006E7250 /* UIClassReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5EF04D11CA19854006E7250 /* UIClassReader.cpp */; };
+		F5EF04D41CA19854006E7250 /* UIClassReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5EF04D11CA19854006E7250 /* UIClassReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -125,6 +128,10 @@
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		F5CA946D1C9ED9A7000A65AA /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
+		F5EF04CE1CA1982A006E7250 /* UIClass.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIClass.cpp; sourceTree = "<group>"; };
+		F5EF04CF1CA1982A006E7250 /* UIClass.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIClass.hpp; sourceTree = "<group>"; };
+		F5EF04D11CA19854006E7250 /* UIClassReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UIClassReader.cpp; sourceTree = "<group>"; };
+		F5EF04D21CA19854006E7250 /* UIClassReader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = UIClassReader.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -258,6 +265,10 @@
 				F5CA946B1C9ED96E000A65AA /* Scene */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
+				F5EF04D11CA19854006E7250 /* UIClassReader.cpp */,
+				F5EF04D21CA19854006E7250 /* UIClassReader.hpp */,
+				F5EF04CE1CA1982A006E7250 /* UIClass.cpp */,
+				F5EF04CF1CA1982A006E7250 /* UIClass.hpp */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -438,8 +449,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
+				F5EF04D31CA19854006E7250 /* UIClassReader.cpp in Sources */,
 				46880B8A19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				F5EF04D01CA1982A006E7250 /* UIClass.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				F5CA946E1C9ED9A7000A65AA /* GameScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
@@ -453,6 +466,7 @@
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				503AE10517EB98FF00D1A890 /* main.cpp in Sources */,
 				F597E6FB1C9EE19000368353 /* GameScene.cpp in Sources */,
+				F5EF04D41CA19854006E7250 /* UIClassReader.cpp in Sources */,
 				46880B8B19C43A87006E1F66 /* HelloWorldScene.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

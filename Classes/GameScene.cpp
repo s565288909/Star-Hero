@@ -9,6 +9,8 @@
 #include "GameScene.hpp"
 #include "cocostudio/CocoStudio.h"
 #include "ui/CocosGUI.h"
+#include "UIClassReader.hpp"
+#include "cocostudio/CCComExtensionData.h"
 
 USING_NS_CC;
 
@@ -29,8 +31,11 @@ bool GameScene::init()
         return false;
     }
     
+    CSLoader* instance = CSLoader::getInstance();
+    instance->registReaderObject("UIClassReader",(ObjectFactory::Instance)UIClassReader::getInstance);
+    
     auto gamescene = CSLoader::createNode("Scene/GameScene.csb");
     addChild(gamescene);
-    
+
     return true;
 }
