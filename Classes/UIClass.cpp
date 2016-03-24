@@ -7,7 +7,8 @@
 //
 
 #include "UIClass.hpp"
-#include "ui/UIText.h" 
+#include "ui/UIText.h"
+#include "Player.h"
 
 USING_NS_CC;
 using namespace std;
@@ -17,10 +18,14 @@ UIClass::UIClass(){}
 
 Widget::ccWidgetTouchCallback UIClass::onLocateTouchCallback(const string &callBackName)
 {
-    if (callBackName == "onTouch")//判断事件名，返回对应的函数。下同
+    if (callBackName == "onRightBtTouch")//判断事件名，返回对应的函数。下同
     {
-        return CC_CALLBACK_2(UIClass::onTouch, this);
+		return CC_CALLBACK_2(UIClass::onRightBtTouch, this);
     }
+	else if (callBackName == "onLeftBtTouch")//判断事件名，返回对应的函数。下同
+	{
+		return CC_CALLBACK_2(UIClass::onLeftBtTouch, this);
+	}
     return nullptr;
 }
 
@@ -42,9 +47,44 @@ Widget::ccWidgetEventCallback UIClass::onLocateEventCallback(const string &callB
     return nullptr;
 }
 
-void UIClass::onTouch(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
+void UIClass::onRightBtTouch(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
 {
     CCLOG("onTouch");
+	switch (type)
+	{
+	case cocos2d::ui::Widget::TouchEventType::BEGAN:
+		Player::Instance->moveRight();
+		break;
+	case cocos2d::ui::Widget::TouchEventType::MOVED:
+		break;
+	case cocos2d::ui::Widget::TouchEventType::ENDED:
+		Player::Instance->stopMove();
+		break;
+	case cocos2d::ui::Widget::TouchEventType::CANCELED:
+		break;
+	default:
+		break;
+	}
+}
+
+void UIClass::onLeftBtTouch(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEventType type)
+{
+	CCLOG("onTouch");
+	switch (type)
+	{
+	case cocos2d::ui::Widget::TouchEventType::BEGAN:
+		Player::Instance->moveLeft();
+		break;
+	case cocos2d::ui::Widget::TouchEventType::MOVED:
+		break;
+	case cocos2d::ui::Widget::TouchEventType::ENDED:
+		Player::Instance->stopMove();
+		break;
+	case cocos2d::ui::Widget::TouchEventType::CANCELED:
+		break;
+	default:
+		break;
+	}
 }
 
 void UIClass::onClick(cocos2d::Ref* sender)

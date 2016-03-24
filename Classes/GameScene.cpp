@@ -37,5 +37,7 @@ bool GameScene::init()
     auto gamescene = CSLoader::createNode("Scene/GameScene.csb");
     addChild(gamescene);
 
+	
+
     return true;
 }

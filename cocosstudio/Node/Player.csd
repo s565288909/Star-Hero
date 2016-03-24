@@ -41,7 +41,7 @@
       <ObjectData Name="Node" Tag="36" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="Left" ActionTag="-919680830" VisibleForFrame="False" Tag="16" IconVisible="False" LeftMargin="-51.0000" RightMargin="-51.0000" TopMargin="-88.5000" BottomMargin="-88.5000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Left" ActionTag="-919680830" Tag="16" IconVisible="False" LeftMargin="-51.0000" RightMargin="-51.0000" TopMargin="-88.5000" BottomMargin="-88.5000" ctype="SpriteObjectData">
             <Size X="102.0000" Y="177.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position />
@@ -49,7 +49,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="MarkedSubImage" Path="Images/player/player1_run_left_4.png" Plist="Images/player/Player_Plist.plist" />
+            <FileData Type="MarkedSubImage" Path="Images/player/player1_run_left_1.png" Plist="Images/player/Player_Plist.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
           <AbstractNodeData Name="Right" ActionTag="-1913390702" Tag="17" IconVisible="False" LeftMargin="-51.0000" RightMargin="-51.0000" TopMargin="-88.5000" BottomMargin="-88.5000" ctype="SpriteObjectData">
@@ -60,7 +60,7 @@
             <CColor A="255" R="255" G="255" B="255" />
             <PrePosition />
             <PreSize X="0.0000" Y="0.0000" />
-            <FileData Type="MarkedSubImage" Path="Images/player/player1_run_right_4.png" Plist="Images/player/Player_Plist.plist" />
+            <FileData Type="MarkedSubImage" Path="Images/player/player1_run_right_1.png" Plist="Images/player/Player_Plist.plist" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
         </Children>
