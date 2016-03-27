@@ -10,6 +10,7 @@
 #define GameScene_hpp
 
 #include <cocos2d.h>
+#include <Player.hpp>
 
 class GameScene : public cocos2d::Layer
 {
@@ -17,6 +18,8 @@ public:
     static cocos2d::Scene* createScene();
     virtual bool init();
     CREATE_FUNC(GameScene);
+private:
+    Player* _player;
 };
 
 

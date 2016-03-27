@@ -8,7 +8,7 @@
 
 #include "UIClass.hpp"
 #include "ui/UIText.h"
-#include "Player.h"
+#include "Player.hpp"
 
 USING_NS_CC;
 using namespace std;
@@ -53,12 +53,12 @@ void UIClass::onRightBtTouch(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEve
 	switch (type)
 	{
 	case cocos2d::ui::Widget::TouchEventType::BEGAN:
-		Player::Instance->moveRight();
+		Player::getInstance()->moveRight();
 		break;
 	case cocos2d::ui::Widget::TouchEventType::MOVED:
 		break;
 	case cocos2d::ui::Widget::TouchEventType::ENDED:
-		Player::Instance->stopMove();
+		Player::getInstance()->stopMove();
 		break;
 	case cocos2d::ui::Widget::TouchEventType::CANCELED:
 		break;
@@ -73,12 +73,12 @@ void UIClass::onLeftBtTouch(cocos2d::Ref* object, cocos2d::ui::Widget::TouchEven
 	switch (type)
 	{
 	case cocos2d::ui::Widget::TouchEventType::BEGAN:
-		Player::Instance->moveLeft();
+		Player::getInstance()->moveLeft();
 		break;
 	case cocos2d::ui::Widget::TouchEventType::MOVED:
 		break;
 	case cocos2d::ui::Widget::TouchEventType::ENDED:
-		Player::Instance->stopMove();
+		Player::getInstance()->stopMove();
 		break;
 	case cocos2d::ui::Widget::TouchEventType::CANCELED:
 		break;

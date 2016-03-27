@@ -23,9 +23,9 @@
     </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
-        <LastPublishType Value="VS" />
+        <LastPublishType Value="XCode" />
         <IsLastPublish Value="True" />
-        <LastRunType Value="Windows" />
+        <LastRunType Value="Mac" />
       </Value>
     </Item>
     <Item Key="TabsParamsKey">
@@ -33,6 +33,7 @@
         <OpenedDocuments>
           <FilePathData Path="Scene/GameScene.csd" />
           <FilePathData Path="Node/Player.csd" />
+          <FilePathData Path="Node/UILayer.csd" />
         </OpenedDocuments>
         <ActiveDocument Path="Node/Player.csd" />
       </Value>

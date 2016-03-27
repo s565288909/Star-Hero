@@ -2,7 +2,7 @@
 
 #include "cocos2d.h"
 
-class Enity : public cocos2d::Node
+class Enity : public cocos2d::Ref
 {
 public:
 	Enity();
