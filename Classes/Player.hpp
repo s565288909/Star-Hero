@@ -19,8 +19,6 @@ public:
     Player();
     ~Player();
     static Player* getInstance();
-    virtual bool init();
-    CREATE_FUNC(Player);
     void initData();
     void setNode(cocos2d::Node* node);
     void moveLeft();
@@ -34,7 +32,6 @@ public:
     };
     WalkState m_WalkState;
 private:
-    static Player* _instances;
     cocos2d::Node* m_Node;
     cocos2d::Action* _leftAction;
     cocos2d::Action* _rightAction;

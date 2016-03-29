@@ -16,17 +16,13 @@ Player::Player(){}
 
 Player::~Player(){}
 
-bool Player::init(){
-    initData();
-    return true;
-}
-
-static Player* _instance = nullptr;
+Player* _instances = nullptr;
 Player* Player::getInstance() {
-    if (_instance==nullptr) {
-        _instance = new Player();
+    if (_instances==nullptr) {
+        _instances = new Player();
+        _instances->initData();
     }
-    return _instance;
+    return _instances;
 }
 
 void Player::initData(){
@@ -35,25 +31,27 @@ void Player::initData(){
     NL = 100;
     m_WalkState = WalkStop;
     _action = CSLoader::createTimeline("Node/Player.csb");
+    
 }
 
 void Player::setNode(Node* node){
     this->m_Node = node;
     m_Node->getChildByName("Left")->setVisible(false);
     m_Node->getChildByName("Right")->setVisible(true);
+    m_Node->runAction(_action);
 }
 
 void Player::moveLeft(){
     m_Node->getChildByName("Left")->setVisible(true);
     m_Node->getChildByName("Right")->setVisible(false);
-    _action->gotoFrameAndPlay(0, 32, true);
+    _action->gotoFrameAndPlay(40, 72, true);
     m_WalkState = WalkLeft;
 }
 
 void Player::moveRight(){
     m_Node->getChildByName("Left")->setVisible(false);
     m_Node->getChildByName("Right")->setVisible(true);
-    _action->gotoFrameAndPlay(40,72,true);
+    _action->gotoFrameAndPlay(0,32,true);
     m_WalkState = WalkRight;
 }
 
