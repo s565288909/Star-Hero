@@ -61,6 +61,8 @@
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		ED545A7C1B68A1F400C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7B1B68A1F400C3958E /* libiconv.dylib */; };
 		ED545A7E1B68A1FA00C3958E /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = ED545A7D1B68A1FA00C3958E /* libiconv.dylib */; };
+		F51124621CB10D1B00092931 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51124601CB10D1B00092931 /* Star.cpp */; };
+		F51124631CB10D1B00092931 /* Star.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F51124601CB10D1B00092931 /* Star.cpp */; };
 		F597E6FB1C9EE19000368353 /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */; };
 		F5CA946E1C9ED9A7000A65AA /* GameScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */; };
 		F5E43DB71CA79405007C6554 /* Enity.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F5E43DB31CA79405007C6554 /* Enity.cpp */; };
@@ -131,6 +133,8 @@
 		E6BC457AB2ABD9A38B6F5AD7 /* res */ = {isa = PBXFileReference; lastKnownFileType = "?"; name = res; path = ../Resources/res; sourceTree = "<group>"; };
 		ED545A7B1B68A1F400C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.4.sdk/usr/lib/libiconv.dylib; sourceTree = DEVELOPER_DIR; };
 		ED545A7D1B68A1FA00C3958E /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		F51124601CB10D1B00092931 /* Star.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Star.cpp; sourceTree = "<group>"; };
+		F51124611CB10D1B00092931 /* Star.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Star.hpp; sourceTree = "<group>"; };
 		F5CA946C1C9ED9A7000A65AA /* GameScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameScene.cpp; sourceTree = "<group>"; };
 		F5CA946D1C9ED9A7000A65AA /* GameScene.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GameScene.hpp; sourceTree = "<group>"; };
 		F5E43DB31CA79405007C6554 /* Enity.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Enity.cpp; sourceTree = "<group>"; };
@@ -271,17 +275,12 @@
 		46880B8319C43A87006E1F66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F5E43DB31CA79405007C6554 /* Enity.cpp */,
-				F5E43DB41CA79405007C6554 /* Enity.h */,
-				F5E43DBC1CA7C0B4007C6554 /* Player.cpp */,
-				F5E43DBD1CA7C0B4007C6554 /* Player.hpp */,
+				F511245F1CB10CEA00092931 /* Layer */,
+				F511245D1CB10BD300092931 /* Enity */,
 				F5CA946B1C9ED96E000A65AA /* Scene */,
 				46880B8419C43A87006E1F66 /* AppDelegate.cpp */,
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
-				F5EF04D11CA19854006E7250 /* UIClassReader.cpp */,
-				F5EF04D21CA19854006E7250 /* UIClassReader.hpp */,
-				F5EF04CE1CA1982A006E7250 /* UIClass.cpp */,
-				F5EF04CF1CA1982A006E7250 /* UIClass.hpp */,
+				F511245E1CB10C5100092931 /* Utils */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -340,6 +339,37 @@
 				537A4ADE8BCE60CE31EC2030 /* libcocos2d Mac.a */,
 			);
 			name = "mac-libs";
+			sourceTree = "<group>";
+		};
+		F511245D1CB10BD300092931 /* Enity */ = {
+			isa = PBXGroup;
+			children = (
+				F5E43DB31CA79405007C6554 /* Enity.cpp */,
+				F5E43DB41CA79405007C6554 /* Enity.h */,
+				F5E43DBC1CA7C0B4007C6554 /* Player.cpp */,
+				F5E43DBD1CA7C0B4007C6554 /* Player.hpp */,
+			);
+			name = Enity;
+			sourceTree = "<group>";
+		};
+		F511245E1CB10C5100092931 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F5EF04D11CA19854006E7250 /* UIClassReader.cpp */,
+				F5EF04D21CA19854006E7250 /* UIClassReader.hpp */,
+				F5EF04CE1CA1982A006E7250 /* UIClass.cpp */,
+				F5EF04CF1CA1982A006E7250 /* UIClass.hpp */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		F511245F1CB10CEA00092931 /* Layer */ = {
+			isa = PBXGroup;
+			children = (
+				F51124601CB10D1B00092931 /* Star.cpp */,
+				F51124611CB10D1B00092931 /* Star.hpp */,
+			);
+			name = Layer;
 			sourceTree = "<group>";
 		};
 		F5CA946B1C9ED96E000A65AA /* Scene */ = {
@@ -467,6 +497,7 @@
 				F5E43DB71CA79405007C6554 /* Enity.cpp in Sources */,
 				F5E43DBE1CA7C0B4007C6554 /* Player.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				F51124621CB10D1B00092931 /* Star.cpp in Sources */,
 				F5EF04D01CA1982A006E7250 /* UIClass.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
 				F5CA946E1C9ED9A7000A65AA /* GameScene.cpp in Sources */,
@@ -478,6 +509,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F51124631CB10D1B00092931 /* Star.cpp in Sources */,
 				F5E43DBB1CA7BFB3007C6554 /* UIClass.cpp in Sources */,
 				46880B8919C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				F5E43DBF1CA7C0B4007C6554 /* Player.cpp in Sources */,
