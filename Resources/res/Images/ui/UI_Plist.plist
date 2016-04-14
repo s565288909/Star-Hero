@@ -4,10 +4,186 @@
 	<dict>
 		<key>frames</key>
 		<dict>
+			<key>Images/ui/attack_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{222,110},{106,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{106,109}</string>
+			</dict>
+			<key>Images/ui/attack_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,190},{106,109}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{106,109}</string>
+			</dict>
+			<key>Images/ui/framebg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{468,0},{91,13}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{91,13}</string>
+			</dict>
+			<key>Images/ui/hero.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{93,381},{83,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,84}</string>
+			</dict>
+			<key>Images/ui/herobg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,0},{246,80}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{246,80}</string>
+			</dict>
+			<key>Images/ui/heroframe.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,387},{83,84}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{83,84}</string>
+			</dict>
+			<key>Images/ui/hp.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{481,0},{89,11}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{89,11}</string>
+			</dict>
+			<key>Images/ui/je.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{492,0},{89,11}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{89,11}</string>
+			</dict>
+			<key>Images/ui/left_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{246,0},{110,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,111}</string>
+			</dict>
+			<key>Images/ui/left_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{357,0},{110,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,111}</string>
+			</dict>
+			<key>Images/ui/right_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,80},{110,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,111}</string>
+			</dict>
+			<key>Images/ui/right_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{111,80},{110,111}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{110,111}</string>
+			</dict>
+			<key>Images/ui/sattack_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{109,290},{91,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{91,93}</string>
+			</dict>
+			<key>Images/ui/sattack_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{0,296},{91,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{91,93}</string>
+			</dict>
+			<key>Images/ui/skill_1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{309,310},{91,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{91,93}</string>
+			</dict>
+			<key>Images/ui/skill_2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{202,316},{91,93}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{91,93}</string>
+			</dict>
 			<key>Images/ui/left_bt_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,0},{100,100}}</string>
+				<string>{{109,190},{100,100}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -18,7 +194,7 @@
 			<key>Images/ui/left_bt_2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{0,100},{100,100}}</string>
+				<string>{{331,110},{100,100}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -29,7 +205,7 @@
 			<key>Images/ui/right_bt_1.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{100,0},{100,100}}</string>
+				<string>{{331,210},{100,100}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -40,7 +216,7 @@
 			<key>Images/ui/right_bt_2.png</key>
 			<dict>
 				<key>frame</key>
-				<string>{{100,100},{100,100}}</string>
+				<string>{{209,216},{100,100}}</string>
 				<key>offset</key>
 				<string>{0,0}</string>
 				<key>rotated</key>
@@ -58,14 +234,14 @@
 			<key>realTextureFileName</key>
 			<string>UI_Plist.png</string>
 			<key>size</key>
-			<string>{256,256}</string>
+			<string>{512,512}</string>
 		</dict>
 		<key>texture</key>
 		<dict>
 			<key>width</key>
-			<integer>256</integer>
+			<integer>512</integer>
 			<key>height</key>
-			<integer>256</integer>
+			<integer>512</integer>
 		</dict>
 	</dict>
 </plist>

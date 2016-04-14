@@ -16,12 +16,29 @@
             <Image Name="player1_run_right_4.png" />
           </Folder>
           <Folder Name="ui">
+            <Image Name="attack_1.png" />
+            <Image Name="attack_2.png" />
+            <Image Name="framebg.png" />
+            <Image Name="hero.png" />
+            <Image Name="herobg.png" />
+            <Image Name="heroframe.png" />
+            <Image Name="hp.png" />
+            <Image Name="je.png" />
+            <Image Name="left_1.png" />
+            <Image Name="left_2.png" />
             <Image Name="left_bt_1.png" />
             <Image Name="left_bt_2.png" />
+            <Image Name="right_1.png" />
+            <Image Name="right_2.png" />
             <Image Name="right_bt_1.png" />
             <Image Name="right_bt_2.png" />
+            <Image Name="sattack_1.png" />
+            <Image Name="sattack_2.png" />
+            <Image Name="skill_1.png" />
+            <Image Name="skill_2.png" />
             <PlistInfo Name="UI_Plist.csi" Type="Plist" />
           </Folder>
+          <Image Name="bg.png" />
           <Image Name="SpaceBackground.png" />
           <Image Name="star.png" />
         </Folder>

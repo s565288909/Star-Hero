@@ -4,17 +4,17 @@
     <Content>
       <Animation Duration="0" Speed="1.0000" />
       <ObjectData Name="Layer" Tag="12" ctype="GameLayerObjectData">
-        <Size X="1400.0000" Y="788.0000" />
+        <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="SpaceBackground_1" ActionTag="972856842" Tag="13" IconVisible="False" HorizontalEdge="LeftEdge" VerticalEdge="TopEdge" ctype="SpriteObjectData">
-            <Size X="1400.0000" Y="788.0000" />
-            <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="700.0000" Y="394.0000" />
+          <AbstractNodeData Name="bg_2" ActionTag="462565873" Tag="20" IconVisible="False" ctype="SpriteObjectData">
+            <Size X="1136.0000" Y="640.0000" />
+            <AnchorPoint />
+            <Position />
             <Scale ScaleX="1.0000" ScaleY="1.0000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5000" Y="0.5000" />
+            <PrePosition />
             <PreSize X="1.0000" Y="1.0000" />
-            <FileData Type="Normal" Path="Images/SpaceBackground.png" Plist="" />
+            <FileData Type="Normal" Path="Images/bg.png" Plist="" />
             <BlendFunc Src="770" Dst="771" />
           </AbstractNodeData>
         </Children>

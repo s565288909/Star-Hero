@@ -2,11 +2,27 @@
   <PropertyGroup Name="UI_Plist" Type="Plist" ID="f0bf4a77-4257-4a49-8a6c-d89527138e9c" Version="3.10.0.0" />
   <Content ExportType="Png" SortAlgorithm="MaxRects" PicturePadding="0" AllowRotation="True" AllowAnySize="False" AllowTrim="False" ctype="PlistInfoData">
     <ImageFiles>
+      <FilePathData Path="Images/ui/attack_1.png" />
+      <FilePathData Path="Images/ui/attack_2.png" />
+      <FilePathData Path="Images/ui/framebg.png" />
+      <FilePathData Path="Images/ui/hero.png" />
+      <FilePathData Path="Images/ui/herobg.png" />
+      <FilePathData Path="Images/ui/heroframe.png" />
+      <FilePathData Path="Images/ui/hp.png" />
+      <FilePathData Path="Images/ui/je.png" />
+      <FilePathData Path="Images/ui/left_1.png" />
+      <FilePathData Path="Images/ui/left_2.png" />
+      <FilePathData Path="Images/ui/right_1.png" />
+      <FilePathData Path="Images/ui/right_2.png" />
+      <FilePathData Path="Images/ui/sattack_1.png" />
+      <FilePathData Path="Images/ui/sattack_2.png" />
+      <FilePathData Path="Images/ui/skill_1.png" />
+      <FilePathData Path="Images/ui/skill_2.png" />
       <FilePathData Path="Images/ui/left_bt_1.png" />
       <FilePathData Path="Images/ui/left_bt_2.png" />
       <FilePathData Path="Images/ui/right_bt_1.png" />
       <FilePathData Path="Images/ui/right_bt_2.png" />
     </ImageFiles>
-    <MaxSize Width="256" Height="256" />
+    <MaxSize Width="512" Height="512" />
   </Content>
 </PlistInfoProjectFile>

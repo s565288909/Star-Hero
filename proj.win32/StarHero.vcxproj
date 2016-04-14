@@ -151,6 +151,7 @@ xcopy /Y /Q "$(COCOS_X_ROOT)\cocos2d-x-3.10\prebuilt\win32\*.*" "$(OutDir)"
     <ClCompile Include="..\Classes\GameScene.cpp" />
     <ClCompile Include="..\Classes\HelloWorldScene.cpp" />
     <ClCompile Include="..\Classes\Player.cpp" />
+    <ClCompile Include="..\Classes\Star.cpp" />
     <ClCompile Include="..\Classes\UIClass.cpp" />
     <ClCompile Include="..\Classes\UIClassReader.cpp" />
     <ClCompile Include="main.cpp" />
@@ -161,6 +162,7 @@ xcopy /Y /Q "$(COCOS_X_ROOT)\cocos2d-x-3.10\prebuilt\win32\*.*" "$(OutDir)"
     <ClInclude Include="..\Classes\GameScene.hpp" />
     <ClInclude Include="..\Classes\HelloWorldScene.h" />
     <ClInclude Include="..\Classes\Player.h" />
+    <ClInclude Include="..\Classes\Star.hpp" />
     <ClInclude Include="..\Classes\UIClass.hpp" />
     <ClInclude Include="..\Classes\UIClassReader.hpp" />
     <ClInclude Include="main.h" />

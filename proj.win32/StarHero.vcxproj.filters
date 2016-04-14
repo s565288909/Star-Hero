@@ -45,6 +45,9 @@
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src\Scene</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\Star.cpp">
+      <Filter>src\Stars</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="main.h">
@@ -70,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Star.hpp">
+      <Filter>src\Stars</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

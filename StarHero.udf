@@ -10,8 +10,8 @@
         <AndroidVersion Value="" />
         <iOS_Target Value="StarHero-mobile" />
         <iOS_BundleID Value="" />
-        <Platform Value="None" />
-        <RunPlatform Value="Mac" />
+        <Platform Value="Android" />
+        <RunPlatform Value="Windows" />
         <FrameworkVersion Value="cocos2d-x-3.10" />
         <IsDebugKeystore Value="True" />
         <KeystorePassword Value="" />
@@ -23,9 +23,21 @@
     </Item>
     <Item Key="CocosRecentOperation">
       <Value ctype="CocosRecentOperation">
-        <LastPublishType Value="XCode" />
-        <IsLastPublish Value="True" />
-        <LastRunType Value="Mac" />
+        <LastPublishType Value="VS" />
+        <IsLastPublish Value="False" />
+        <LastRunType Value="Windows" />
+      </Value>
+    </Item>
+    <Item Key="TabsParamsKey">
+      <Value ctype="TabsInfo">
+        <OpenedDocuments>
+          <FilePathData Path="Images/ui/UI_Plist.csi" />
+          <FilePathData Path="Node/UILayer.csd" />
+          <FilePathData Path="Node/BgLayer.csd" />
+          <FilePathData Path="Scene/GameScene.csd" />
+          <FilePathData Path="Node/Player.csd" />
+        </OpenedDocuments>
+        <ActiveDocument Path="Node/Player.csd" />
       </Value>
     </Item>
   </Properties>
