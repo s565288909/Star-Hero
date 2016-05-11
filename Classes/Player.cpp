@@ -12,15 +12,18 @@ USING_NS_CC;
 
 using namespace cocostudio::timeline;
 
-Player::Player(){}
+Player::Player(Node* node){
+	this->m_Node = node;
+	initData();
+}
 
 Player::~Player(){}
 
-Player* _instances = nullptr;
+Player* _instances;
+
 Player* Player::getInstance() {
     if (_instances==nullptr) {
-        _instances = new Player();
-        _instances->initData();
+		CCLOG("出错");
     }
     return _instances;
 }

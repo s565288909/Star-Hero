@@ -6,15 +6,15 @@
       <ObjectData Name="Layer" Tag="18" ctype="GameLayerObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="star_1" ActionTag="-748902604" Tag="19" IconVisible="False" LeftMargin="277.8654" RightMargin="272.1346" TopMargin="288.2319" BottomMargin="-233.2319" ctype="SpriteObjectData">
-            <Size X="586.0000" Y="585.0000" />
+          <AbstractNodeData Name="star_1" ActionTag="812549975" Tag="52" IconVisible="False" LeftMargin="112.0000" RightMargin="112.0000" TopMargin="989.0000" BottomMargin="-1255.0000" ctype="SpriteObjectData">
+            <Size X="912.0000" Y="906.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
-            <Position X="570.8654" Y="59.2681" />
-            <Scale ScaleX="1.0000" ScaleY="1.0000" />
+            <Position X="568.0000" Y="-802.0000" />
+            <Scale ScaleX="2.2000" ScaleY="2.2000" />
             <CColor A="255" R="255" G="255" B="255" />
-            <PrePosition X="0.5025" Y="0.0926" />
-            <PreSize X="0.5158" Y="0.9141" />
-            <FileData Type="Normal" Path="Images/star.png" Plist="" />
+            <PrePosition X="0.5000" Y="-1.2531" />
+            <PreSize X="0.8028" Y="1.4156" />
+            <FileData Type="Normal" Path="Images/stars/star.png" Plist="" />
             <BlendFunc Src="1" Dst="771" />
           </AbstractNodeData>
         </Children>

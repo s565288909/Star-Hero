@@ -15,6 +15,9 @@
             <Image Name="player1_run_right_3.png" />
             <Image Name="player1_run_right_4.png" />
           </Folder>
+          <Folder Name="stars">
+            <Image Name="star.png" />
+          </Folder>
           <Folder Name="ui">
             <Image Name="attack_1.png" />
             <Image Name="attack_2.png" />
@@ -39,12 +42,11 @@
             <PlistInfo Name="UI_Plist.csi" Type="Plist" />
           </Folder>
           <Image Name="bg.png" />
-          <Image Name="SpaceBackground.png" />
-          <Image Name="star.png" />
         </Folder>
         <Folder Name="Node">
           <Project Name="BgLayer.csd" Type="Layer" />
           <Project Name="Player.csd" Type="Node" />
+          <Project Name="Star.csd" Type="Node" />
           <Project Name="StarLayer.csd" Type="Layer" />
           <Project Name="UILayer.csd" Type="Layer" />
         </Folder>

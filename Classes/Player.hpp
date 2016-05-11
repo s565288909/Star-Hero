@@ -16,7 +16,7 @@
 class Player : public Enity
 {
 public:
-    Player();
+    Player(cocos2d::Node* node);
     ~Player();
     static Player* getInstance();
     void initData();
@@ -32,7 +32,7 @@ public:
     };
     WalkState m_WalkState;
 private:
-    cocos2d::Node* m_Node;
+
     cocos2d::Action* _leftAction;
     cocos2d::Action* _rightAction;
     cocostudio::timeline::ActionTimeline* _action;

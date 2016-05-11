@@ -37,8 +37,7 @@ bool GameScene::init()
     auto gamescene = CSLoader::createNode("Scene/GameScene.csb");
     addChild(gamescene);
 
-    _player = Player::getInstance();
-    _player->setNode(gamescene->getChildByName("Player"));
+	_player = new Player(gamescene->getChildByName("Player"));
 
     return true;
 }

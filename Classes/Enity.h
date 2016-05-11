@@ -2,17 +2,17 @@
 
 #include "cocos2d.h"
 
-class Enity : public cocos2d::Ref
+class Enity : public cocos2d::CCObject
 {
 public:
 	Enity();
 	~Enity();
+	cocos2d::Node* getNode();
 protected:
 	int HP;
 	int MP;
 	int NL;
 	bool isDead;
-	cocos2d::Sprite* m_Sprite;
-	cocos2d::Vec2 m_pos;
+	cocos2d::Node* m_Node;
 	virtual void initData();
 };

@@ -41,7 +41,7 @@
       <ObjectData Name="Node" Tag="36" ctype="GameNodeObjectData">
         <Size X="0.0000" Y="0.0000" />
         <Children>
-          <AbstractNodeData Name="Left" Visible="False" ActionTag="-919680830" Tag="16" IconVisible="False" LeftMargin="-51.0000" RightMargin="-51.0000" TopMargin="-88.5000" BottomMargin="-88.5000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="Left" ActionTag="-919680830" Tag="16" IconVisible="False" LeftMargin="-51.0000" RightMargin="-51.0000" TopMargin="-88.5000" BottomMargin="-88.5000" ctype="SpriteObjectData">
             <Size X="102.0000" Y="177.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position />

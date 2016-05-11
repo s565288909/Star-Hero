@@ -11,10 +11,15 @@
 
 #include <cocos2d.h>
 
-class Star : public cocos2d::Layer
+class Star : public cocos2d::CCObject
 {
 public:
-    
+	Star(cocos2d::Layer* layer);
+	~Star();
+	cocos2d::Layer* getStarLayer();
+private:
+	cocos2d::Layer* _starlayer;
+	void initData();
 };
 
 #endif /* Star_hpp */

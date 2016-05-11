@@ -65,9 +65,6 @@
     <ClInclude Include="..\Classes\Enity.h">
       <Filter>src\Enity</Filter>
     </ClInclude>
-    <ClInclude Include="..\Classes\Player.h">
-      <Filter>src\Enity</Filter>
-    </ClInclude>
     <ClInclude Include="..\Classes\GameScene.hpp">
       <Filter>src\Scene</Filter>
     </ClInclude>
@@ -76,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="..\Classes\Star.hpp">
       <Filter>src\Stars</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Player.hpp">
+      <Filter>src\Enity</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
