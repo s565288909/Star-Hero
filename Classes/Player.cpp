@@ -12,18 +12,15 @@ USING_NS_CC;
 
 using namespace cocostudio::timeline;
 
-Player::Player(Node* node){
-	this->m_Node = node;
-	initData();
-}
+Player::Player(){}
 
 Player::~Player(){}
 
-Player* _instances;
+Player* _instances = nullptr;
 
 Player* Player::getInstance() {
     if (_instances==nullptr) {
-		CCLOG("出错");
+		_instances = new Player();
     }
     return _instances;
 }
@@ -39,9 +36,11 @@ void Player::initData(){
 
 void Player::setNode(Node* node){
     this->m_Node = node;
+	initData();
     m_Node->getChildByName("Left")->setVisible(false);
     m_Node->getChildByName("Right")->setVisible(true);
     m_Node->runAction(_action);
+	
 }
 
 void Player::moveLeft(){

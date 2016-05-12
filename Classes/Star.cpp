@@ -17,7 +17,22 @@ Star::Star(Layer* layer){
 
 Star::~Star(){};
 
-void Star::initData(){};
+void Star::initData(){
+	_starAngle = 0;
+	_starRotateAngle = 0.2f;
+	_star = _starlayer->getChildByName("star");
+};
+
+void Star::rotateStar(bool left, bool right){
+	if (left)
+	{
+		_star->setRotation(_star->getRotation() + _starRotateAngle);
+	}
+	else if (right)
+	{
+		_star->setRotation(_star->getRotation() - _starRotateAngle);
+	}
+}
 
 Layer* Star::getStarLayer(){
 	return _starlayer;

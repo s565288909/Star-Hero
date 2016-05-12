@@ -16,7 +16,7 @@
             <PreSize X="1.0000" Y="1.0000" />
             <FileData Type="Normal" Path="Node/BgLayer.csd" Plist="" />
           </AbstractNodeData>
-          <AbstractNodeData Name="FileNode_1" ActionTag="-52001094" Tag="34" IconVisible="True" LeftMargin="568.0000" RightMargin="568.0000" TopMargin="640.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
+          <AbstractNodeData Name="StarLayer" ActionTag="-52001094" Tag="34" IconVisible="True" LeftMargin="568.0000" RightMargin="568.0000" TopMargin="640.0000" StretchWidthEnable="False" StretchHeightEnable="False" InnerActionSpeed="1.0000" CustomSizeEnabled="False" ctype="ProjectNodeObjectData">
             <Size X="0.0000" Y="0.0000" />
             <AnchorPoint />
             <Position X="568.0000" />

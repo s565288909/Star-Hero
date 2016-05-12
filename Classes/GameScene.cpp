@@ -30,14 +30,38 @@ bool GameScene::init()
     if (!Layer::init()) {
         return false;
     }
-    
+
     CSLoader* instance = CSLoader::getInstance();
     instance->registReaderObject("UIClassReader",(ObjectFactory::Instance)UIClassReader::getInstance);
     
     auto gamescene = CSLoader::createNode("Scene/GameScene.csb");
     addChild(gamescene);
 
-	_player = new Player(gamescene->getChildByName("Player"));
+	_player = Player::getInstance();
+	_player->setNode(gamescene->getChildByName("Player"));
 
+	_starLayer = new Star((Layer*)gamescene->getChildByName("StarLayer"));
+
+	this->scheduleUpdate();
     return true;
+}
+
+void GameScene::update(float delta){
+	RotateStar();
+}
+
+void GameScene::RotateStar(){
+	switch (_player->m_WalkState)
+	{
+	case Player::WalkLeft:
+		moveL = true;
+		break;
+	case Player::WalkRight:
+		moveR = true;
+		break;
+	case Player::WalkStop:
+		moveL = moveR = false;
+		break;
+	}
+	_starLayer->rotateStar(moveL, moveR);
 }

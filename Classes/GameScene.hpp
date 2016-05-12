@@ -11,6 +11,7 @@
 
 #include <cocos2d.h>
 #include <Player.hpp>
+#include <Star.hpp>
 
 class GameScene : public cocos2d::Layer
 {
@@ -18,8 +19,12 @@ public:
     static cocos2d::Scene* createScene();
     virtual bool init();
     CREATE_FUNC(GameScene);
+	virtual void update(float delta);
+	void RotateStar();
 private:
     Player* _player;
+	Star* _starLayer;
+	bool moveL = false, moveR = false;
 };
 
 

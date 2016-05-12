@@ -6,7 +6,7 @@
       <ObjectData Name="Layer" Tag="18" ctype="GameLayerObjectData">
         <Size X="1136.0000" Y="640.0000" />
         <Children>
-          <AbstractNodeData Name="star_1" ActionTag="812549975" Tag="52" IconVisible="False" LeftMargin="112.0000" RightMargin="112.0000" TopMargin="989.0000" BottomMargin="-1255.0000" ctype="SpriteObjectData">
+          <AbstractNodeData Name="star" ActionTag="812549975" Tag="52" IconVisible="False" LeftMargin="112.0000" RightMargin="112.0000" TopMargin="989.0000" BottomMargin="-1255.0000" ctype="SpriteObjectData">
             <Size X="912.0000" Y="906.0000" />
             <AnchorPoint ScaleX="0.5000" ScaleY="0.5000" />
             <Position X="568.0000" Y="-802.0000" />
